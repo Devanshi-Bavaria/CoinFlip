@@ -1,37 +1,37 @@
 const colors = {
-  primary: "#13f268",
-  complementary: "#f2139d",
-  error: "#bc1232",
-  success: "#1ac925",
-  light: "#f8ffe8",
-  lighter: "#f5fbe7",
-  lightest: "#ffffff",
-  dark: "#262930",
-  darker: "#0a0a15",
-  darkest: "#050414",
+  primary: "#6D6875", // Elegant muted purple
+  complementary: "#B5838D", // Soft dusty pink
+  error: "#E5989B", // Gentle blush pink
+  success: "#84A98C", // Soft sage green
+  light: "#F4F1DE", // Warm light beige
+  lighter: "#FAF3E0", // Very light cream
+  lightest: "#FFFFFF", // Pure white
+  dark: "#4A4E69", // Deep muted blue
+  darker: "#22223B", // Elegant dark blue
+  darkest: "#1D1D2C", // Rich dark navy
 };
 
 const sizes = {
   borderRadius: {
-    m: "8px",
-    l: "16px",
+    m: "10px", // Slightly larger for a softer look
+    l: "18px", // Larger for more rounded elements
   },
   border: {
-    m: "2px",
+    m: "1.5px", // Thinner for a more delicate feel
   },
 };
 
 const space = {
-  s: 6,
-  m: 12,
-  l: 22,
-  xl: 36,
+  s: 8, // Slightly increased for more breathing room
+  m: 16,
+  l: 28,
+  xl: 40,
 };
 
 const fonts = {
-  body: "'Work Sans', sans-serif",
-  heading: "'Montserrat', sans-serif",
-  logo: "'Fredoka One', cursive",
+  body: "'Lora', serif", // Elegant, classic serif font
+  heading: "'Playfair Display', serif", // Stylish and elegant for headings
+  logo: "'Great Vibes', cursive", // Elegant cursive for the logo
 };
 
 const shared = {
