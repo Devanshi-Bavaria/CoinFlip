@@ -1,5 +1,5 @@
 <div align="center">
-<h1><strong> CoinFlip - Double up your ETH! </strong></h1>
+<h1><strong> CryptoFlip: Double Up </strong></h1>
 
 [![](https://img.shields.io/badge/Moralis%20Academy-Ethereum%20201-blue)](https://academy.moralis.io)
 [![Stargazers](https://img.shields.io/github/stars/Pedrojok01/CoinFlip_2.0)](https://github.com/Pedrojok01/CoinFlip_2.0/stargazers)
