@@ -11,42 +11,20 @@
 https://github.com/user-attachments/assets/73cb06e4-632b-43d5-acbd-ec675cd3c325
 
 
-## Table of Contents
+# Built With
 
-- [Table of Contents](#table-of-contents)
-- [Updates](#updates)
-- [Description](#description)
-- [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Smart-Contracts Deployment](#smart-contracts-deployment)
-    - [Install the dependencies](#install-the-dependencies)
-    - [Deployement](#deployement)
-    - [Coverage](#coverage)
-    - [Static Analyzer](#static-analyzer)
-  - [Config \& Client](#config--client)
-- [Acknowledgments](#acknowledgments)
-- [Use](#use)
-  - [⭐️ ... and don't forget to leave a star if you like it! ⭐️](#️--and-dont-forget-to-leave-a-star-if-you-like-it-️)
+[![React][react.js]][react-url] [![solidity]][solidity-url] [![chainlink]][chainlink-url] [![hardhat]][hardhat-url] [![ethers.js]][ethers-url]
 
-## Updates
+# Updates
 
 - 2024/06 - Move from Truffle to Hardhat & Switch to Spolia network & Update to Chainlink VRF 2.5 & compiler to 0.8.20 & Clean contracts/app;
 - 2022/07 - Switch to Chainlink VRF v2 & Update solidity compiler version to 0.8.7;
 - 2022/12 - Switch to Goerli network v2 & upgrade all deps & Update solc to 0.8.16;
 
 
-## Built With
+# Getting Started
 
-- [![React][react.js]][react-url]
-- [![solidity]][solidity-url]
-- [![chainlink]][chainlink-url]
-- [![hardhat]][hardhat-url]
-- [![ethers.js]][ethers-url]
-
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 Make sure you have the following ready:
 
@@ -61,9 +39,9 @@ Then create a new repo, open your favorite code editor, and clone the repo with 
 git clone https://github.com/Pedrojok01/CoinFlip_2.0 .
 ```
 
-### Smart-Contracts Deployment
+## Smart-Contracts Deployment
 
-#### Install the dependencies
+## Install the dependencies
 
 In your terminal, make sure you are in the `COINFLIP_2.0` repo, then move to the blockchain folder :
 
@@ -77,12 +55,11 @@ Then run the following command to install the dependencies:
 yarn install
 ```
 
-#### Deployement
+# Deployement
 
 To deploy your smart-contracts:
 
-- Subscribe to Chainlink VRF v2.5 on the [Chainlink VRF Sepolia dashboard](https://vrf.chain.link/sepolia/). You can get some test LINK there: [LINK Faucet](https://faucets.chain.link/).
-- Add your <b>subscription id</b> to the deployment script in `blockchain/scripts/deploy.js`. To deploy on different chains, you will also have to adjust the `COORDINATOR` and `KEY_HASH` values. You can refer to the [Chainlink docs](https://docs.chain.link/vrf/v2-5/supported-networks#configurations) to get the data for the desired network (if supported).
+- To deploy on different chains, you will also have to adjust the `COORDINATOR` and `KEY_HASH` values. You can refer to the [Chainlink docs](https://docs.chain.link/vrf/v2-5/supported-networks#configurations) to get the data for the desired network (if supported).
 - Also, make sure that the network is configured in `hardhat.config.js` and that you have defined the required variables in the `.env` file.
 - Edit the script in `blockchain/package.json` to deploy the contract on the network of your choice.
 - Finally, run the command below to deploy to the network of your choice.
@@ -90,71 +67,6 @@ To deploy your smart-contracts:
 ```bash
 yarn deploy
 ```
-
-#### Coverage
-
-To check the coverage of the tests, run the following command:
-
-```bash
-yarn cover
-```
-
-And see the results printed in the terminal:
-
-![Preview](./public/images/coverage.png)
-
-#### Static Analyzer
-
-For basic security checks, you can run both [Slither](https://github.com/crytic/slither) and [Aderyn](https://github.com/Cyfrin/aderyn) (refer to their doc to install them) with the following commands:
-
-```bash
-yarn slither
-```
-
-```bash
-yarn aderyn
-```
-
-Aderyn will print a nice report file called `report.md` at the root of the project.
-
-### Config & Client
-
-Before each deployment, make sure to:
-
-- Replace the contract address in `src/data/constants.js`
-- Replace the abi file in `src/data/coinFlipAbi.js`
-- Make sure to fund the contract with some ETH ( [Faucet for the Sepolia network](https://goerlifaucet.org/) )
-
----
-
-- Change the `COINFLIP_ADDRESS` in `/src/constants.js` to your deployed contracts address;
-- Copy the new abi file into the `src/abis` folder if you've made any changes to the contracts;
-- Enable/disable, and update the suitable networks in `truffle-config.js`;
-- In the `blockchain/` repo, create a file called `.secret` and paste your mnemonic seed phrase inside; (<b>Make sure you add this file in your `.gitignore`!!!</b>)
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- [Img Shields](https://shields.io)
-- [Font Awesome](https://fontawesome.com)
-- [Jazzicon](https://github.com/MetaMask/jazzicon)
-
-## Use
-
-You are now set to start your local server. Make sure you're still in `COINFLIP 2.0` and type:
-`yarn start`
-
-<br/>
-
-<div align="center">
-<h2># Enjoy!!!</h2>
-
-### ⭐️ ... and don't forget to leave a star if you like it! ⭐️
-
-</div>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
