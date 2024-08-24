@@ -1,14 +1,14 @@
 const colors = {
-  primary: "#00C9A7", // HackerRank primary green
-  complementary: "#00A86B", // HackerRank darker green
-  error: "#FF4D4F", // HackerRank error red
-  success: "#4CAF50", // HackerRank success green
-  light: "#F6F6F6", // HackerRank light background
-  lighter: "#E0E0E0", // HackerRank lighter background
+  primary: "#6D6875", // Elegant muted purple
+  complementary: "#B5838D", // Soft dusty pink
+  error: "#E5989B", // Gentle blush pink
+  success: "#84A98C", // Soft sage green
+  light: "#F4F1DE", // Warm light beige
+  lighter: "#FAF3E0", // Very light cream
   lightest: "#FFFFFF", // Pure white
-  dark: "#333333", // HackerRank dark text color
-  darker: "#1C1C1C", // HackerRank darker text color
-  darkest: "#0D0D0D",
+  dark: "#4A4E69", // Deep muted blue
+  darker: "#22223B", // Elegant dark blue
+  darkest: "#1D1D2C", // Rich dark navy
 };
 
 const sizes = {
