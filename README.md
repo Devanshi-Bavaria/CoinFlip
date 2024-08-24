@@ -9,7 +9,7 @@
 - Try it yourself: [https://coin-flip-green.vercel.app/](https://coin-flip-green.vercel.app/)
 
 <div align="center">
-<h1> 🚨 It might take time. So sit tight and wait for results. 🚨</h1>
+<h2> 🚨 It might take time. So sit tight and wait for results. 🚨</h2>
 </div>
 
 https://github.com/user-attachments/assets/a85a96ff-74e6-432e-9478-3f87621f1ce7
