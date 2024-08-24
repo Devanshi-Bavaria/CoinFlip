@@ -1,5 +1,5 @@
 <div align="center">
-<h1><strong> CryptoFlip: Double Up </strong></h1>
+<h1><strong> CoinFlip - Double your ETH! </strong></h1>
 </div>
 
 - The app is a simple coin flip game where you can double up your ETH or lose your bet. The game is based on a smart contract that uses Chainlink VRF to generate a random number.<br>
