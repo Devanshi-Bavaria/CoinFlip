@@ -24,7 +24,6 @@ https://github.com/user-attachments/assets/73cb06e4-632b-43d5-acbd-ec675cd3c325
 
 # Getting Started
 
-## Prerequisites
 
 Make sure you have the following ready:
 
@@ -39,9 +38,7 @@ Then create a new repo, open your favorite code editor, and clone the repo with 
 git clone https://github.com/Pedrojok01/CoinFlip_2.0 .
 ```
 
-## Smart-Contracts Deployment
-
-## Install the dependencies
+# Smart-Contracts Deployment
 
 In your terminal, make sure you are in the `COINFLIP_2.0` repo, then move to the blockchain folder :
 
@@ -55,8 +52,6 @@ Then run the following command to install the dependencies:
 yarn install
 ```
 
-# Deployement
-
 To deploy your smart-contracts:
 
 - To deploy on different chains, you will also have to adjust the `COORDINATOR` and `KEY_HASH` values. You can refer to the [Chainlink docs](https://docs.chain.link/vrf/v2-5/supported-networks#configurations) to get the data for the desired network (if supported).
@@ -67,6 +62,13 @@ To deploy your smart-contracts:
 ```bash
 yarn deploy
 ```
+#
+
+<div align="center">
+The CoinFlip website is currently deployed and accessible online.
+
+Live URL: https://devubavariaa.github.io/FIBONACCI-HEAP/
+</div>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
