@@ -1,16 +1,14 @@
 const colors = {
-  primary: "#25ab75", // Primary green
-  complementary: "#208c61", // Darker green for primary dark
-  light: "#ffffff", // Pure white for light elements
-  lighter: "#f8f8f8", // Slightly off-white for lighter elements
-  lightest: "#ffffff", // Pure white for the lightest elements
-  dark: "#1a1a1a", // Primary background dark
-  darker: "#242424", // Secondary background dark
-  darkest: "#151515", // Footer background dark
-  text: "#676767", // Text color
-  border: "#373737", // Border color
-  error: "#bc1232", // Red for errors
-  success: "#84A98C", // Soft sage green for success
+  primary: "#00C9A7", // HackerRank primary green
+  complementary: "#00A86B", // HackerRank darker green
+  error: "#FF4D4F", // HackerRank error red
+  success: "#4CAF50", // HackerRank success green
+  light: "#F6F6F6", // HackerRank light background
+  lighter: "#E0E0E0", // HackerRank lighter background
+  lightest: "#FFFFFF", // Pure white
+  dark: "#333333", // HackerRank dark text color
+  darker: "#1C1C1C", // HackerRank darker text color
+  darkest: "#0D0D0D",
 };
 
 const sizes = {
@@ -46,18 +44,15 @@ const shared = {
 export const lightTheme = {
   ...shared,
   background: colors.light,
-  text: colors.dark,
-  buttonText: colors.primary,
+  text: colors.darker,
+  buttonText: colors.lightest,
   cardBackground: colors.lightest,
 };
 
 export const darkTheme = {
   ...shared,
-  background: colors.dark,
+  background: colors.darker,
   text: colors.lighter,
-  buttonText: colors.primary,
-  cardBackground: colors.darker,
+  buttonText: colors.darker,
+  cardBackground: colors.dark,
 };
-
-
-
