@@ -1,14 +1,16 @@
 const colors = {
-  primary: "#6D6875", // Elegant muted purple
-  complementary: "#B5838D", // Soft dusty pink
-  error: "#E5989B", // Gentle blush pink
-  success: "#84A98C", // Soft sage green
-  light: "#F4F1DE", // Warm light beige
-  lighter: "#FAF3E0", // Very light cream
-  lightest: "#FFFFFF", // Pure white
-  dark: "#4A4E69", // Deep muted blue
-  darker: "#22223B", // Elegant dark blue
-  darkest: "#1D1D2C", // Rich dark navy
+  primary: "#25ab75", // Primary green
+  complementary: "#208c61", // Darker green for primary dark
+  light: "#ffffff", // Pure white for light elements
+  lighter: "#f8f8f8", // Slightly off-white for lighter elements
+  lightest: "#ffffff", // Pure white for the lightest elements
+  dark: "#1a1a1a", // Primary background dark
+  darker: "#242424", // Secondary background dark
+  darkest: "#151515", // Footer background dark
+  text: "#676767", // Text color
+  border: "#373737", // Border color
+  error: "#bc1232", // Red for errors
+  success: "#84A98C", // Soft sage green for success
 };
 
 const sizes = {
@@ -44,15 +46,18 @@ const shared = {
 export const lightTheme = {
   ...shared,
   background: colors.light,
-  text: colors.darker,
-  buttonText: colors.lightest,
+  text: colors.dark,
+  buttonText: colors.primary,
   cardBackground: colors.lightest,
 };
 
 export const darkTheme = {
   ...shared,
-  background: colors.darker,
+  background: colors.dark,
   text: colors.lighter,
-  buttonText: colors.darker,
-  cardBackground: colors.dark,
+  buttonText: colors.primary,
+  cardBackground: colors.darker,
 };
+
+
+
