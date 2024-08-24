@@ -1,0 +1,9 @@
+.netlify/
+
+node_modules/
+build/
+
+blockchain/
+
+yarn.lock
+package-lock.json
