@@ -30,7 +30,7 @@ const space = {
 
 const fonts = {
   body: "'Lora', serif", // Elegant, classic serif font
-  heading: heading: "'Merriweather', serif", // Stylish and elegant for headings
+  heading: "'Merriweather', serif", // Stylish and elegant for headings
   logo: "'Great Vibes', cursive", // Elegant cursive for the logo
 };
 
