@@ -14,12 +14,12 @@
 
 https://github.com/user-attachments/assets/a85a96ff-74e6-432e-9478-3f87621f1ce7
 
-# Built With
+## Built With
 
 [![React][react.js]][react-url]  [![solidity]][solidity-url] [![chainlink]][chainlink-url] [![hardhat]][hardhat-url] [![ethers.js]][ethers-url]
 
 
-# Getting Started
+## Getting Started
 
 
 Make sure you have the following ready:
@@ -35,7 +35,7 @@ Then create a new repo, open your favorite code editor, and clone the repo with 
 git clone https://github.com/Devanshi-Bavaria/CoinFlip.git
 ```
 
-# Smart-Contracts Deployment
+## Smart-Contracts Deployment
 
 In your terminal, make sure you are in the `CoinFlip` repo, then move to the blockchain folder :
 
@@ -59,13 +59,9 @@ To deploy your smart-contracts:
 ```bash
 yarn deploy
 ```
-#
+## Contact
+For any questions, feel free to reach out to [Devanshi Bavaria](mailto:bavariadevanshi.8502@gmail.com).
 
-<div align="center">
-The CoinFlip website is currently deployed and accessible online.
-
-Live URL: https://coin-flip-green.vercel.app/
-</div>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
