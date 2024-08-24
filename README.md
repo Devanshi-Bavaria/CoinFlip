@@ -13,13 +13,7 @@ https://github.com/user-attachments/assets/73cb06e4-632b-43d5-acbd-ec675cd3c325
 
 # Built With
 
-[![React][react.js]][react-url] [![solidity]][solidity-url] [![chainlink]][chainlink-url] [![hardhat]][hardhat-url] [![ethers.js]][ethers-url]
-
-# Updates
-
-- 2024/06 - Move from Truffle to Hardhat & Switch to Spolia network & Update to Chainlink VRF 2.5 & compiler to 0.8.20 & Clean contracts/app;
-- 2022/07 - Switch to Chainlink VRF v2 & Update solidity compiler version to 0.8.7;
-- 2022/12 - Switch to Goerli network v2 & upgrade all deps & Update solc to 0.8.16;
+[![React][react.js]][react-url]  [![solidity]][solidity-url] [![chainlink]][chainlink-url] [![hardhat]][hardhat-url] [![ethers.js]][ethers-url]
 
 
 # Getting Started
@@ -35,12 +29,12 @@ Make sure you have the following ready:
 Then create a new repo, open your favorite code editor, and clone the repo with the following cmd:
 
 ```bash
-git clone https://github.com/Pedrojok01/CoinFlip_2.0 .
+git clone https://github.com/Devanshi-Bavaria/CoinFlip.git
 ```
 
 # Smart-Contracts Deployment
 
-In your terminal, make sure you are in the `COINFLIP_2.0` repo, then move to the blockchain folder :
+In your terminal, make sure you are in the `CoinFlip` repo, then move to the blockchain folder :
 
 ```bash
 cd blockchain
@@ -67,7 +61,7 @@ yarn deploy
 <div align="center">
 The CoinFlip website is currently deployed and accessible online.
 
-Live URL: https://devubavariaa.github.io/FIBONACCI-HEAP/
+Live URL: https://coin-flip-green.vercel.app/
 </div>
 
 <!-- MARKDOWN LINKS & IMAGES -->
