@@ -2,10 +2,10 @@
 <h1><strong> CryptoFlip: Double Up </strong></h1>
 </div>
 The app is a simple coin flip game where you can double up your ETH or lose your bet. The game is based on a smart contract that uses Chainlink VRF to generate a random number.
-
+<br>
 Smart contracts deployed on Sepolia testnet: [0x097d039Bb7353B0bcD3d585B5a71e8B575F2f3f7](https://sepolia.etherscan.io/address/0x097d039Bb7353B0bcD3d585B5a71e8B575F2f3f7#code)
 
-Try it yourself: [coinflip-double-up-your-eth.netlify.app/](https://coinflip-double-up-your-eth.netlify.app/)
+Try it yourself: [https://coin-flip-green.vercel.app/](https://coin-flip-green.vercel.app/)
 
 ## Table of Contents
 
