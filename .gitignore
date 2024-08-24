@@ -1,0 +1,33 @@
+# dependencies
+node_modules
+
+# production
+blockchain/build
+blockchain/.secret
+
+# netlify
+build
+.netlify
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# blockchain files
+coverage
+blockchain/report.md
+
+blockchain/.env
+blockchain/.env.local
+blockchain/node_modules
+
+blockchain/coverage
+blockchain/coverage.json
+blockchain/typechain
+blockchain/typechain-types
+blockchain/cache
+blockchain/artifacts
